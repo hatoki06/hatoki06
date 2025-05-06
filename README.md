@@ -109,7 +109,7 @@ Osaka Metropolitan Graduate University, Faculty of Informatics, Department of Co
 
 # 現在の取り組み / Current Actives
 ## 情報指向ネットワーク(ICN)を用いたエッジコンピューティング
-<!--- ![fig](./figs/my_research_system_architecture_trimed.png) --->
+- ![fig](./figs/my_research_system_architecture.png) -
 
 ### 研究背景
 近年, IoT機器の普及により, インターネット接続機器が急増し, ネットワークトラヒックの増加や通信遅延, パケットロスといった問題が顕在化している. これらの課題に対処するため, エッジコンピューティングの活用が注目されているが, 処理をクラウドとエッジに適切に分散させる判断は困難である. そこで本研究では, データ名に基づく通信を行う情報指向ネットワーク（ICN; Information-Centric Networking）を導入し, 関数の処理位置を動的に決定できる分散処理アーキテクチャを提案する. 具体的には, 関数のメタ情報をパブリックノードに事前登録・共有し, 関数呼び出し時に効率的な処理の配置と引数のやり取りを可能にする仕組みを構築・検証した. その結果, 引数のサイズ制約にとらわれない柔軟な関数呼び出しを実現できた. 
