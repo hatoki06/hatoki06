@@ -1,5 +1,5 @@
-最終更新日: 2025/03/19  
-Last Updated: 2025/03/19  
+最終更新日: 2025/05/06  
+Last Updated: 2025/05/06 
 
 ![view counter](https://komarev.com/ghpvc/?username=hatoki06)
 
@@ -108,23 +108,36 @@ Osaka Metropolitan Graduate University, Faculty of Informatics, Department of Co
 -->
 
 # 現在の取り組み / Current Actives
-## タイトル
+## 情報指向ネットワーク(ICN)を用いたエッジコンピューティング
 <!--- ![fig](./figs/my_research_system_architecture_trimed.png) --->
 
 ### 研究背景
+近年, IoT機器の普及により, インターネット接続機器が急増し, ネットワークトラヒックの増加や通信遅延, パケットロスといった問題が顕在化している. これらの課題に対処するため, エッジコンピューティングの活用が注目されているが, 処理をクラウドとエッジに適切に分散させる判断は困難である. そこで本研究では, データ名に基づく通信を行う情報指向ネットワーク（ICN; Information-Centric Networking）を導入し, 関数の処理位置を動的に決定できる分散処理アーキテクチャを提案する. 具体的には, 関数のメタ情報をパブリックノードに事前登録・共有し, 関数呼び出し時に効率的な処理の配置と引数のやり取りを可能にする仕組みを構築・検証した. その結果, 引数のサイズ制約にとらわれない柔軟な関数呼び出しを実現できた. 
 
 
 ### 研究成果
+"ネットワークベース関数キャッシング機構におけるパラメータ共有手法", 橋本侑樹，藤本まなと，阿多信吾, 電子情報通信学会関西支部学生会第29回学生会研究発表講演会，p. 24，大阪公立大学杉本キャンパス，大阪府，2025年3月
+
+"単一プログラムコードによる動的ネットワーク内処理配置機構", 橋本侑樹，藤本まなと，阿多信吾, 第27回ICN研究会ワークショップ，デモ発表，KKR はこだて，北海道，2024年8月
 
 
 ### 使用言語・技術スタック
-[![Used TechStack](https://skillicons.dev/icons?i=py,django,vue,ubuntu,mongodb)](https://skillicons.dev)  
+[![Used TechStack](https://skillicons.dev/icons?i=py,c)](https://skillicons.dev) 
+[![Used TechStack](https://skillicons.dev/icons?i=docker,git,github,ubuntu,raspberrypi,bash,vim,vscode)](https://skillicons.dev)  
+[![Used TechStack](https://skillicons.dev/icons?i=vue,pinia,html,css,bootstrap,js,django,mysql,mongodb)](https://skillicons.dev)
+
+利用経験あり  
+[![My Skills](https://skillicons.dev/icons?i=cpp,java,swift,visualstudio,eclipse,figma,latex,notion,postman)](https://skillicons.dev)  
 
 - Python
-- Django
+- C
+- Docker
 - Vue.js
-- Linux (Ubutnu22.04)
+- Django
+- Mysql
 - MongoDB
+- Linux (Ubutnu22.04)
+- RaspberryPi
 
 
 # 過去の取り組み / Past Actives
